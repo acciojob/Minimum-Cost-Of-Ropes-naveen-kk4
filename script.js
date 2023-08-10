@@ -24,11 +24,8 @@ quickSort(pivot+1,e,arr);
 
 }
 
-
-
-
 function calculateMinCost() {
-  var arr = document.getElementById("rope-lengths").value.split(",").map(function (item) {
+  var arr = document.getElementById("rope-lengths").value.split(", ").map(function (item) {
     return parseInt(item, 10);
 });
   let ans = 0;
@@ -40,8 +37,6 @@ function calculateMinCost() {
     
 
   }
-  document.getElementById("result").innerHTML = ans.toString();
-  
-  
+  document.getElementById("result").innerHTML = ans.toString(); 
   
 }  
