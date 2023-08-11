@@ -35,8 +35,7 @@ function calculateMinCost() {
     arr[1]+=arr[0];
     arr.shift();
     
-
   }
-  document.getElementById("result").innerHTML = ans.toString(); 
+  document.getElementById("result").innerText = ans; 
   
 }  
